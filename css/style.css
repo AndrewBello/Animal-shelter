@@ -1,0 +1,71 @@
+body {
+    color: black;
+    background-color:skyblue;
+    text-align: center;
+}
+.h1 {
+    padding: 10px;
+    border: black;
+    border-radius: 30%;
+    padding-right: 210px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:rgb(255, 255, 255);
+    border: white;
+    border-width: 0px;
+    border-radius: 50%;
+  }
+.head {
+    display: block;
+    padding-bottom: 70px;
+    background-image: url("https://lh3.googleusercontent.com/proxy/UhdHDUbpcKoj6FLY9KUNpDxQRHxVu9JcCTos1Zq_b_VR8V9xoBAV6l2pt5p3nkaJMWpbYFDz9gvAMhOAs7IMHlwc70GawdQjDBMMBkeOnkqx1ZU0mjjY6ZQBLYz8Q5vz-L5yQhKFvPKNCjUE5gfTEnRrDdJfyZkVKml8WKBb");
+    background-size:contain;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+h3 {
+    text-align: center;
+    padding-left: 50px;
+   font-size: 30pt;
+   margin-right: 100px;
+}
+#body {
+    display: block;
+    padding-bottom: 200px;
+}
+.pet {
+    float: right;
+}
+.info {
+    float: left;
+    font-size: 15pt;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+img {
+    border: black;
+    border-radius: 50%;
+}
