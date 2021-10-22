@@ -6,7 +6,7 @@ body {
 .h1 {
     padding: 10px;
     border: black;
-    border-radius: 30%;
+    border-radius: 50%;
     padding-right: 210px;
 }
 ul {
@@ -44,6 +44,8 @@ ul {
     padding-bottom: 70px;
     background-image: url("https://lh3.googleusercontent.com/proxy/UhdHDUbpcKoj6FLY9KUNpDxQRHxVu9JcCTos1Zq_b_VR8V9xoBAV6l2pt5p3nkaJMWpbYFDz9gvAMhOAs7IMHlwc70GawdQjDBMMBkeOnkqx1ZU0mjjY6ZQBLYz8Q5vz-L5yQhKFvPKNCjUE5gfTEnRrDdJfyZkVKml8WKBb");
     background-size:contain;
+    border-radius: 30%;
+    border-width: 0px;
 }
 .logo {
     width: 200px;
@@ -81,5 +83,11 @@ img {
     padding-bottom: 20px;
 }
 .profile {
+    display: block;
+}
+.highlight {
+    color: blue;
+}
+#block {
     display: block;
 }
